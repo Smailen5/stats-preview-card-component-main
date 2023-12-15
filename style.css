@@ -28,15 +28,6 @@ main {
     position: relative;
 }
 
-/* ---------- Filtro viola per tutta la pagina ---------- */
-.filter {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    background: hsla(277, 64%, 61%, 0.2);
-    border-radius: 5px;
-}
 
 /* ---------- Grandezza dei contenitori ---------- */
 
@@ -100,9 +91,17 @@ p span span {
 .cnt.right {
     position: relative;
 }
-.cnt.right .filter {
+
+/* ---------- Filtro viola per l'immagine ---------- */
+.filter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
     background: hsla(277, 64%, 61%, 0.5);
+    border-radius: 5px;
 }
+
 .cnt.right img {
     object-fit: cover;
     width: 100%;
