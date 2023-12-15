@@ -27,11 +27,22 @@ main {
     width: 50%;
     height: 100%;
 }
+
 .cnt.left {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 40px;
+}
+
+.left h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.left .details {
+    font-size: 0.75em;
+    width: 90%;
+    margin-bottom: 50px;
 }
 
 .cnt.right img {
