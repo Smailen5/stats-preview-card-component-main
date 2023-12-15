@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -10,16 +14,19 @@ body {
     height: 100vh;
     background: hsl(233, 47%, 7%);
 }
+
 main {
     display: flex;
     background: hsl(244, 38%, 16%);
     width: 80%;
     height: 45%;
 }
+
 .cnt {
     width: 50%;
     height: 100%;
 }
+
 .cnt.right img {
     object-fit: cover;
     width: 100%;
