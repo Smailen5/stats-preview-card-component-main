@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 body {
@@ -24,6 +24,17 @@ main {
     background: hsl(244, 38%, 16%);
     width: 80%;
     height: 45%;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* ---------- Filtro viola per tutta la pagina ---------- */
+.filter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: hsla(277, 64%, 61%, 0.2);
     border-radius: 5px;
 }
 
@@ -52,13 +63,13 @@ main {
     width: 90%;
     margin-bottom: 30px;
     line-height: 1.3rem;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 /* ---------- Dati sotto al paragrafo ---------- */
 
 .data {
     display: flex;
-    /* flex-direction: column; */
     gap: 40px;
 }
 
@@ -66,26 +77,35 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 p span {
-    color: green;
     text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
     font-size: 0.75em;
     font-weight: 400;
 }
 
 p span span {
+    text-transform: none;
     font-weight: bold;
-    color: red;
     font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
 }
 
 
 
 
 /* ---------- Contenitore destro ---------- */
-
+.cnt.right {
+    position: relative;
+}
+.cnt.right .filter {
+    background: hsla(277, 64%, 61%, 0.5);
+}
 .cnt.right img {
     object-fit: cover;
     width: 100%;
+    max-height: 100%;
     border-radius: 0 5px 5px 0;
 }
