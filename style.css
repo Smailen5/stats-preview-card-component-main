@@ -22,7 +22,7 @@ body {
 main {
     display: flex;
     background: hsl(244, 38%, 16%);
-    width: 80%;
+    width: 60%;
     height: 45%;
     border-radius: 5px;
     position: relative;
@@ -41,8 +41,12 @@ main {
 .cnt.left {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 40px;
+    gap: 40px;
+    padding: 5em;
+}
+
+.left h1 {
+    width: 80%;
 }
 
 .left h1 span {
@@ -50,7 +54,7 @@ main {
 }
 
 .left .details {
-    font-size: 0.75em;
+    /* font-size: 0.75em; */
     width: 90%;
     margin-bottom: 30px;
     line-height: 1.3rem;
@@ -61,7 +65,7 @@ main {
 
 .data {
     display: flex;
-    gap: 40px;
+    gap: 80px;
 }
 
 .data span {
