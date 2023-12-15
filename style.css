@@ -50,8 +50,37 @@ main {
 .left .details {
     font-size: 0.75em;
     width: 90%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    line-height: 1.3rem;
 }
+
+/* ---------- Dati sotto al paragrafo ---------- */
+
+.data {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 40px;
+}
+
+.data span {
+    display: flex;
+    flex-direction: column;
+}
+p span {
+    color: green;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+p span span {
+    font-weight: bold;
+    color: red;
+    font-size: 1.2rem;
+}
+
+
+
 
 /* ---------- Contenitore destro ---------- */
 
