@@ -23,8 +23,8 @@ body {
 main {
     display: flex;
     background: hsl(244, 38%, 16%);
-    width: 70%;
-    height: 60%;
+    width: 80%;
+    height: 55%;
     border-radius: 5px;
     position: relative;
 }
