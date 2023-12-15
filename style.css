@@ -24,6 +24,7 @@ main {
     background: hsl(244, 38%, 16%);
     width: 80%;
     height: 45%;
+    border-radius: 5px;
 }
 
 /* ---------- Grandezza dei contenitori ---------- */
@@ -57,4 +58,5 @@ main {
 .cnt.right img {
     object-fit: cover;
     width: 100%;
+    border-radius: 0 5px 5px 0;
 }
